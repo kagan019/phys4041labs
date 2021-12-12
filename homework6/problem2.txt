@@ -1,0 +1,7 @@
+The problem2.py script ouputs an animation. Because matplotlib doesn't
+export animations, you'll need to run it yourself to visualize the data. 
+Should take about a half minute to run for EPS = 0.08. You can raise EPS 
+so it will finish sooner.
+
+The heatmap renders the temperature according to the 'jet' color scale from blue (low temp)
+to red (high temp)

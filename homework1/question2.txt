@@ -1,0 +1,19 @@
+3x+ay=10
+5x+by=20
+by-(5/3)ay=20-(5/3)10
+  =(b-(5/3)a)y
+
+y = (20-(5/3)10) / (b-(5/3)a)
+  = 10/(3b-5a)
+  = -16.66667 +/- Dy
+
+We use a single order Taylor approximation for small nonstatistical errors in a and b
+
+Dy = |dy/da|*|Da|+|dy/db|*|Db|
+|dy/da| = 10/(3b-5a)^2 * 5
+|dy/db| = 10/(3b-5a)^2 * 3
+
+at the particular values of a and b,
+(dy/da*Da,dy/db*Db) = (6944.444444444412, 4166.666666666647)
+Dy = 0.1
+=> y = -16.7 +/- 0.1

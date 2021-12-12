@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "problem2",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-g",
+                "C/tridag.c", "C/nrutil.c", "problem2.c",
+                "-o", "problem2.out"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ],
+    "version": "2.0.0"
+}
